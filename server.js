@@ -5,7 +5,7 @@ const Article = require('./models/article')
 const mongoose  = require('mongoose');
 const app = express();
 
-const MONGO_URL = "mongodb+srv://dexter:basak2003@cluster0.od8bd35.mongodb.net/?retryWrites=true&w=majority";
+const MONGO_URL = "";
 
 mongoose.connect(MONGO_URL, {
   useNewUrlParser: true,
