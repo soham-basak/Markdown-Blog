@@ -30,7 +30,7 @@ npm install
 npm start
 ```
 
-- Open your web browser and visit http://localhost:3000 to access the Blog Web App.
+- Open your web browser and visit http://localhost:5000 to access the Blog Web App.
 
 ## Project Structure
 
