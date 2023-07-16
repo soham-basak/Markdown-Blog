@@ -36,6 +36,7 @@ npm start
 
 1. The project's file structure is organized as follows:
 
+```bash
 blog-web-app/
   ├── server.js              # Entry point of the application
   ├── models/             # Defines the database schema and models
