@@ -1,4 +1,5 @@
 const express = require('express');
+const methodOverride = require('method-override');
 const acticleRouter = require('./routes/articles');
 const Article = require('./models/article')
 const mongoose  = require('mongoose');
@@ -14,7 +15,7 @@ mongoose.connect(MONGO_URL, {
 app.set('view engine', 'ejs');
 
 app.use(express.urlencoded({ extended: false }));
-
+app.use(methodOverride('_method'));
 
 
 app.get('/', async (req, res) => {
